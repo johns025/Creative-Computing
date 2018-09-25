@@ -1,0 +1,102 @@
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 300px solid transparent;
+  border-right: 300px solid transparent;
+  border-bottom: 300px solid blue;
+  margin-top: 220px;
+  margin-left: 200px;
+  Position: absolute;
+}
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 300px solid transparent;
+  border-right: 300px solid transparent;
+  border-top: 300px solid blue;
+  margin-left: 200px;
+  Position: absolute;
+}
+.arrow-down2 {
+  width: 0;
+  height: 0;
+  border-left: 80px solid transparent;
+  border-right: 0px solid transparent;
+  border-top: 80px solid white;
+  margin-top: 25px;
+  margin-left: 320px;
+  Position: absolute;
+}
+.arrow-down3 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 50px solid white;
+  margin-top: 25px;
+  margin-left: 460px;
+  Position: absolute;
+}
+.arrow-down4 {
+  width: 0;
+  height: 0;
+  border-left: 0px solid transparent;
+  border-right: 80px solid transparent;
+  border-top: 70px solid white;
+  margin-top: 25px;
+  margin-left: 600px;
+  Position: absolute;
+}
+#book{
+  width: 400px;
+  height: 500px;
+  background-color: #FEBC68;
+  margin-top: 50px;
+  margin-left: 300px;
+  Position: absolute;
+}
+#pen{
+  width: 30px;
+  height: 150px;
+  background-color: red;
+  margin-top:400px;
+  margin-left: 570px;
+  position: absolute;
+  transform: rotate(50deg);
+}
+#pen2{
+  width: 35px;
+  height: 150px;
+  background-color: white;
+  margin-top:370px;
+  margin-left: 455px;
+  position: absolute;
+  transform: rotate(-55deg);
+}
+#tape{
+  width: 200px;
+  height: 100px;
+  background-color: gray;
+  margin-top: 475px;
+  margin-left: 450px;
+  border-radius: 25px;
+  position: absolute;
+}
+#cap{
+  width: 80px;
+  height: 40px;
+  background-color: gray;
+  margin-top: 525px;
+  margin-left: 350px;
+  border-radius: 15px;
+  position: absolute;
+}
+#ruler{
+  width: 10px;
+  height: 370px;
+  background-color: yellow;
+  margin-top:175px;
+  margin-left: 215px;
+  position: absolute;
+  transform: rotate(25deg);
+}
