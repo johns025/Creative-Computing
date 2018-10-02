@@ -4,52 +4,73 @@
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: #ffffff;
-  position: absolute;
+  position:
 }
 .box1 {
-  background-color: #000000;
+  background-color: ;
   height: 200px;
   width: 200px;
   margin: 10px;
+}
+p1 {
+    font-size: 220px;
 }
 .box2 {
-  background-color: #000000;
+  background-color: ;
   height: 200px;
   width: 200px;
   margin: 10px;
+}
+p2 {
+    font-size: 220px;
 }
 .box3 {
-  background-color: #000000;
+  background-color: ;
   height: 200px;
   width: 200px;
   margin: 10px;
+}
+p3 {
+    font-size: 220px;
 }
 .box4 {
-  background-color: #000000;
+  background-color: ;
   height: 200px;
   width: 200px;
   margin: 10px;
 }
+p4 {
+    font-size: 220px;
+}
 .box5 {
-  background-color: #000000;
+  background-color: ;
   height: 200px;
   width: 200px;
   margin: 10px;
 }
+p5 {
+    font-size: 220px;
+}
 .box5 {
-  background-color: #000000;
+  background-color: ;
   height: 200px;
   width: 200px;
   margin: 10px;
+}
+p6 {
+    font-size: 220px;
 }
 .box6 {
-  background-color: #000000;
+  background-color: ;
   height: 200px;
   width: 200px;
   margin: 10px;
 }
+p7 {
+    font-size: 220px;
+}
 .box7 {
-  background-color: #000000;
+  background-color: ;
   height: 200px;
   width: 200px;
   margin: 10px;
