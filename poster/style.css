@@ -4,9 +4,14 @@
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: #ffffff;
-  position:
+  /* width: 1440px; */
+  transform: scale(.3);
+  width: 1680px;
 }
 .box1 {
+
+}
+.box-shape{
   background-color: ;
   height: 200px;
   width: 200px;
@@ -85,10 +90,6 @@ p7 {
 }
 .box8 {
   background-color: #000000;
-  height: 200px;
-  width: 200px;
-  margin: 10px;
-  text-align: center;
 }
 
 p8 {
@@ -492,3 +493,50 @@ p12 {
   width: 200px;
   margin: 10px;
 }
+.box67 {
+  background-color: #000000;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+.box68 {
+  background-color: #000000;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+.box69 {
+  background-color: #000000;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+.box70 {
+  background-color: #000000;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+.box71 {
+  background-color: #000000;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+.box72 {
+  background-color: #000000;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+.box73 {
+  background-color: #000000;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+
+ @media screen and (max-width: 900px) {
+   body{ background-color: black; }
+ }
