@@ -535,8 +535,3 @@ p12 {
   width: 200px;
   margin: 10px;
 }
-
-
- @media screen and (max-width: 485px) {
-   body{ background-color: black; }
- }
