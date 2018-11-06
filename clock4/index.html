@@ -1,0 +1,87 @@
+<html>
+<head>
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .tabBlock
+        {
+            background-color:#57574f;
+            border:solid 0px #FFA54F;
+            border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;
+            width:1500px;
+            height: 330px;
+            overflow:hidden;
+            display:block;
+        }
+        .clock
+        {
+            vertical-align: middle;
+            font-family:Orbitron;
+            font-size:370px;
+            font-weight:normal;
+            color:#FFF;
+            padding:0 10px;
+        }
+        .clocklg
+        {
+            vertical-align:middle;
+            font-family:Orbitron;
+            font-size:150px;
+            font-weight:normal;
+            color:#FFF;
+        }
+    </style>
+</head>
+<body onload="digitized();">
+    <div style="background-color:#F3F3F3;
+    height: 340px;width:400px;width:100%;margin:0 auto;padding:20px;">
+
+        <table class="tabBlock" align="center" cellspacing="0" cellpadding="0" border="0">
+            <tr><td class="clock" id="dc"></td>
+                <td>
+                    <table cellpadding="0" cellspacing="0" border="0">
+                        <tr><td class="clocklg" id="dc_hour"></td></tr>
+                        <tr><td class="clocklg" id="dc_second"></td></tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+<script>
+
+    function digitized() {
+        var dt = new Date();
+        var hrs = dt.getHours();
+        var min = dt.getMinutes();
+        var sec = dt.getSeconds();
+
+        min = Ticking(min);
+        sec = Ticking(sec);
+
+        document.getElementById('dc').innerHTML = hrs + ":" + min;
+        document.getElementById('dc_second').innerHTML = sec;
+
+        if (hrs > 12) {
+            document.getElementById('dc_hour').innerHTML = 'PM';
+        }
+        else {
+            document.getElementById('dc_hour').innerHTML = 'AM';
+        }
+
+
+        var time
+        time = setInterval('digitized()', 1000);
+    }
+
+    function Ticking(ticVal) {
+        if (ticVal < 10) {
+            ticVal = "0" + ticVal;
+        }
+        return ticVal;
+    }
+</script>
+</html>
